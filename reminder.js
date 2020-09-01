@@ -2,7 +2,7 @@ function alerteJournalisation()
 {
   let object = {};
 
-  object['text'] = "C'est l'heure de la journalisation.";
+  object['text'] = "C'est l'heure de la journalisation :eggplant: :peach: ";
 
   let json = JSON.stringify(object);
 
@@ -18,7 +18,7 @@ function alerteJournalisation()
     }
   }
 
-  req.open("POST", "https://hooks.slack.com/services/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");
+  req.open("POST", "https://hooks.slack.com/services/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");
   req.send(json);
 
   return
