@@ -6,7 +6,9 @@ function alerteJournalisation()
 
   let json = JSON.stringify(object);
 
+  var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
   var req = new XMLHttpRequest();
+  
 
   req.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200){
@@ -14,11 +16,11 @@ function alerteJournalisation()
     } else if (this.readyState == 4) {
       console.log("L'envoi a échoué.");
   } else{
-    console.log("readyState n'est pas égal à 4.")
+    console.log("readyState est égal à : " + this.readyState)
     }
   }
 
-  req.open("POST", "https://hooks.slack.com/services/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");
+  req.open("POST", URL); // mettre la bonne url et ça marchera
   req.send(json);
 
   return

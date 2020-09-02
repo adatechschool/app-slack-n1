@@ -1,0 +1,27 @@
+{
+  "name": "botslack2020",
+  "version": "1.0.0",
+  "description": "Soumayat_Del_Clemence",
+  "main": "reminder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adatechschool/app-slack-n1.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "JS"
+  ],
+  "author": "Soumayat_Del_Clemence",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adatechschool/app-slack-n1/issues"
+  },
+  "homepage": "https://github.com/adatechschool/app-slack-n1#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

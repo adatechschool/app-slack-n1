@@ -1,4 +1,7 @@
 # app-slack-n1
+Installer Node.js sur la machine
+Initialiser un module (package.json) : npm init
+Installer la bibliothèque XMLHttpRequest : npm install xmlhttprequest
 
 Dans cette version du projet, le bot va servir à automatiser une action qui est faite régulièrement par des membres actuel·les de notre espace Slack.
 Il pourra par exemple :
