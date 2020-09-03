@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 function alerteJournalisation()
 {
   const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
@@ -7,7 +5,7 @@ function alerteJournalisation()
 
   let object = {};
   
-  object['text'] = " :peach: ";
+  object['text'] = " :moon: ";
 
   let json = JSON.stringify(object);
 
@@ -18,7 +16,6 @@ function alerteJournalisation()
     if (this.readyState == 4 && this.status == 200){
       console.log("L'envoi du message a bien été envoyé.");
     } else if (this.readyState == 4) {
-      console.log(env.URL);
       console.log("L'envoi a échoué.");
   } else{
     console.log("readyState est égal à : " + this.readyState)
