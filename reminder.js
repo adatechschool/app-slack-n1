@@ -5,7 +5,7 @@ function alerteJournalisation()
 
   let object = {};
   
-  object['text'] = " :moon: ";
+  object['text'] = "C'est l'heure de la journalisation :bell:";
 
   let json = JSON.stringify(object);
 
@@ -30,5 +30,27 @@ function alerteJournalisation()
 
 }
 
-alerteJournalisation();
+function checkTime() 
+{
+  let date = new Date();
+  let day = date.getDay();
+  let hour = date.getHours();
+  let minute = date.getMinutes();
+
+  if(day == 4 || day == 1 || day == 2 || day == 3 || day == 5)
+  {
+    if(hour == 18 && minute == 10)
+    {
+      alerteJournalisation();
+    }
+  }
+  else
+  {
+    console.log("zut");
+  }
+}
+
+//while(true) {
+  checkTime();
+//}
 
