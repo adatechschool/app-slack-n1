@@ -3,7 +3,7 @@ Installer Node.js sur la machine
 installer npm dotenv : npm install dotenv
 Initialiser un module (package.json) : npm init
 Installer la bibliothèque XMLHttpRequest : npm install xmlhttprequest
-(rajouter les fichier généré par cette manière dans le .gitignore pour aléger le dépot)
+(rajouter les fichier généré par cette manière dans le .gitignore pour aléger le dépot) 
 
 pour exécuter le code avec node : $node fichier.js
 
