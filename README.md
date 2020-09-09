@@ -9,6 +9,9 @@ pour exécuter le code avec node : $node fichier.js
 
 mettre process.env au lieu de .env et mettre au format json les inforations dans ce fichier.
 
+Installer de pm2 sur la machine : npm install pm2@latest -g.
+Démarrer pm2 en utilisant la commande "pm2 start <nom du fichier>".
+Arreter pm2 en utilisant la commande "pm2 stop".
 
 >Dans cette version du projet, le bot va servir à automatiser une action qui est faite régulièrement par des membres actuel·les de notre espace Slack.
 Il pourra par exemple :
