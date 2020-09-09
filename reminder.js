@@ -39,7 +39,7 @@ function checkTime()
 
   if(day == 4 || day == 1 || day == 2 || day == 3 || day == 5)
   {
-    if(hour == 18 && minute == 10)
+    if(hour == 17 && minute == 20)
     {
       alerteJournalisation();
     }
